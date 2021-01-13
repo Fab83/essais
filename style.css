@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,600;0,700;1,400&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Open Sans', sans-serif;
+}
+
+.menu {
+    max-width: 250px;
+}
+
+ul {
+    display: flex;
+    justify-content: space-between;
+    list-style-type: none;
+}
+
+.main {
+    position: relative;
+    padding: 3rem;
+}
+
+.carre-vert {
+    /* background-color: rgb(97, 129, 76); */
+    background-image: url("arbres.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top;
+    width: 40%;
+    height: 100vh;
+    position: absolute;
+    top: 0;
+    right: 0;
+    border-bottom-left-radius: 15px;
+}
